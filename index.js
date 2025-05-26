@@ -1,3 +1,18 @@
+function bilgisayarinHazirMi() {
+  const checklist = {
+    github: "https://github.com/yunus-emre-yaman", 
+    computer: "windows",                      
+    vscode_version: "1.100.2",
+    node_version: "v22.16.0",                 
+    demo_project_url: "https://github.com/yunus-emre-yaman/basic-javascript-practices" 
+  };
+
+  return checklist;
+}
+
+/* Bu satırdan sonraki satırları silmeyin! */
+module.exports = bilgisayarinHazirMi;
+
 const sayilar = require("./sayilar.js");
 const pi = 3.14159;
 /* Üstteki satırlarda global olarak tanımlanmış değişkenler bulunmaktadır, bunları silmeyin. Alttaki açıklamaları takip ederek görevleri tamamlayın. */
